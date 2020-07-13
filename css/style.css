@@ -18,6 +18,33 @@
        url('../fonts/do-hyeon-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/do-hyeon-v11-latin-regular.svg#DoHyeon') format('svg'); /* Legacy iOS */
 }
+
+/* exo-regular - latin */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-regular.svg#Exo') format('svg'); /* Legacy iOS */
+}
+/* exo-italic - latin */
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* Legacy iOS */
+}
 /* do-hyeon-regular - latin */
 <<<<<<< HEAD
 
@@ -41,12 +68,21 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Exo', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #4d4d4d;
   background: #ffffff;
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* */
 }
 
 #page {
@@ -92,11 +128,21 @@ p {
   margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+ h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: 'Exo', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
+  font-weight: bold;
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* */
 }
 
 ::-webkit-selection {
@@ -157,7 +203,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
   font-family: 'Do Hyeon';
-src: url('../fonts/do-hyeon-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/do-hyeon-v11-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Do Hyeon Regular'), local('DoHyeon-Regular'),
        url('../fonts/do-hyeon-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/do-hyeon-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
@@ -166,12 +212,20 @@ src: url('../fonts/do-hyeon-v11-latin-regular.eot'); /* IE9 Compat Modes */
        url('../fonts/do-hyeon-v11-latin-regular.svg#DoHyeon') format('svg'); /* Legacy iOS */  margin-bottom: 3px;
   font-size: 80px;
   line-height: 1;
+    font-style: italic;
     margin-left: auto;
     margin-right: auto; 
     margin-top: 80px;
   font-weight: 300;  
 }
 
+.containerdhruv{
+    border: 1px solid orange;
+  border-radius: 50px 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-spacing: 20px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -217,8 +271,6 @@ line-height: 2;
     font-size: 17px;
       font-family: 'Exo', sans-serif; 
       line-height: 2;
-
-
 
   }
 }
@@ -364,12 +416,38 @@ line-height: 2;
   display: inline-block;
   float: left;
   color: #000;
+  font-size: 20px;
   font-weight: bold;
+  margin-left: 30px;
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* */
 }
 .info li .second-block {
     width:100%;
-  display:inline-table;
+  display:flex;
   color: rgb(255, 99, 62);
+    margin-left: 20px;
+     font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* */
 }
 
 .fh5co-social-icons {
