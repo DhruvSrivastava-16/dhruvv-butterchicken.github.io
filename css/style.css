@@ -861,6 +861,28 @@ line-height: 2;
     height: 270px;
   }
 }
+
+.work2 {
+  background-size:contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .work2 {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .work2 {
+    height: 270px;
+  }
+}
+
 .work .desc {
   display: table-cell;
   vertical-align: middle;
@@ -940,7 +962,17 @@ line-height: 2;
   text-transform: uppercase;
   font-weight: 400;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 50px;  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* Legacy iOS */
+
 }
 
 .fh5co-blog {
@@ -1050,6 +1082,7 @@ line-height: 2;
   -moz-flex-wrap: wrap;
   width: 100%;
   float: left;
+    
 }
 #fh5co-consult .video, #fh5co-consult .choose {
   display: inline-block;
@@ -1061,7 +1094,7 @@ line-height: 2;
 }
 #fh5co-consult .video {
   display: table;
-  width: 50%;
+  width: 40%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1074,11 +1107,10 @@ line-height: 2;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
+    height: 500px;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-consult .video {
-    display: none;
-  }
+ 
 }
 #fh5co-consult .choose {
   width: 50%;
@@ -1096,7 +1128,7 @@ line-height: 2;
 }
 @media screen and (max-width: 992px) {
   .fh5co-video {
-    height: 450px;
+    height: 500px;
   }
 }
 .fh5co-video .overlay {
@@ -1150,7 +1182,7 @@ line-height: 2;
   box-shadow: none;
   border: none;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 300;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1163,11 +1195,21 @@ line-height: 2;
 }
 
 input[type="text"] {
-  height: 50px;
+  height: 30px;
 }
 
 .form-group {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+    font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* Legacy iOS */
 }
 
 #map {
@@ -1221,7 +1263,6 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Space Mono", Arial, serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1232,6 +1273,16 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px;
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/exo-v11-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/exo-v11-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/exo-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/exo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/exo-v11-latin-italic.svg#Exo') format('svg'); /* Legacy iOS */
 }
 .btn.btn-md {
   padding: 8px 20px !important;
@@ -1382,8 +1433,8 @@ input[type="text"] {
   box-shadow: none;
   background: transparent;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 54px;
-  font-size: 18px;
+  height: 50px;
+  font-size: 15px;
   font-weight: 300;
 }
 .form-control:active, .form-control:focus {
